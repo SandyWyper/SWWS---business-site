@@ -1,32 +1,43 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Button from '../Button';
+import TwsTitle from '../../svgComponents/twsTitle';
 
-const Header = () => (
-  <header className="sticky top-0 shadow bg-theme-blue">
-    <div className="container flex flex-col items-center justify-between px-8 py-4 mx-auto sm:flex-row bg-theme-blue">
-      <div className="flex items-center text-4xl text-theme-white font-display">
-        Tinderbox Web Solutions
+const Header = () => {
+  const offset = () => (document.documentElement.clientWidth > 639 ? 87 : 127);
+  return (
+    <header className="top-0 shadow xs:sticky bg-theme-two">
+      <div className="container flex flex-col items-center justify-between px-8 font-semibold font-body sm:flex-row">
+        <div className="flex items-center">
+          <AnchorLink offset={offset} href="#top">
+            <TwsTitle classes="fill-current text-theme-white width-18rem xs:width-20rem md:width-25rem" />
+          </AnchorLink>
+        </div>
+        <div className="flex items-center mb-4 text-lg sm:mb-0">
+          <AnchorLink
+            offset={offset}
+            className="px-4 text-theme-white hover:text-theme-black"
+            href="#websites"
+          >
+            Websites
+          </AnchorLink>
+          <AnchorLink
+            offset={offset}
+            className="px-4 text-theme-white hover:text-theme-black"
+            href="#services"
+          >
+            Shopify
+          </AnchorLink>
+          <AnchorLink
+            offset={offset}
+            className="px-4 hover:text-theme-black text-theme-white"
+            href="#stats"
+          >
+            Contact
+          </AnchorLink>
+        </div>
       </div>
-      <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#features">
-          Features
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
-          Services
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
-          Stats
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
-          Testimonials
-        </AnchorLink>
-      </div>
-      <div className="hidden md:block">
-        <Button className="text-sm">Start Free Trial</Button>
-      </div>
-    </div>
-  </header>
-);
+    </header>
+  );
+};
 
 export default Header;
