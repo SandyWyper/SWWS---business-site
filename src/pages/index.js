@@ -50,7 +50,7 @@ export default () => (
       </div>
     </section>
 
-    <section id="features" className="py-2 bg-theme-two">
+    <section className="py-2 bg-theme-two">
       <div className="mx-auto text-center xs:max-w-lg sm:max-w-2xl lg:max-w-5xl">
         {/* <h2 className="text-3xl font-semibold font-title lg:text-5xl">Our Services</h2> */}
         <div className="flex flex-col flex-wrap w-full mt-12 sm:flex-row">
@@ -100,7 +100,7 @@ export default () => (
     </section>
 
     <SplitSection
-      id="services"
+      id="websites"
       primarySlot={
         <div className="px-4 lg:pr-32 xl:pr-48">
           <h3 className="text-4xl leading-tight xl:text-5xl font-title">
@@ -160,7 +160,7 @@ export default () => (
       </div>
     </section>
     <StackIcons />
-    <div className="px-4 text-theme-white bg-theme-three">
+    <div id="shopify" className="px-4 text-theme-white bg-theme-three">
       <SplitSection
         reverseOrder
         primarySlot={
@@ -177,10 +177,10 @@ export default () => (
             </p>
           </div>
         }
-        secondarySlot={<SvgOnlineShopping className="w-full h-full md:pr-8" />}
+        secondarySlot={<SvgOnlineShopping className="w-full h-full md:pr-8 lg:pr-16" />}
       />
     </div>
-    <section id="contact" className="container px-4 py-16 mx-auto lg:py-24 lg:flex">
+    <section id="contact" className="container px-4 py-16 mx-auto lg:py-24 lg:flex xl:px-24">
       <div className="mb-12 sm:pr-16 lg:w-1/2">
         <h2 className="mb-4 text-4xl font-title">Get in touch</h2>
         <p className="text-xl">

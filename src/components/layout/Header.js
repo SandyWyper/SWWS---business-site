@@ -23,14 +23,14 @@ const Header = () => {
           <AnchorLink
             offset={offset}
             className="px-4 text-theme-white hover:text-theme-black"
-            href="#services"
+            href="#shopify"
           >
             Shopify
           </AnchorLink>
           <AnchorLink
             offset={offset}
             className="px-4 hover:text-theme-black text-theme-white"
-            href="#stats"
+            href="#contact"
           >
             Contact
           </AnchorLink>

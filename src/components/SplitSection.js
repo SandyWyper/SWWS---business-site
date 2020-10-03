@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SplitSection = ({ id, primarySlot, secondarySlot, reverseOrder }) => (
-  <section id={id} className="py-20 lg:py-32">
+  <section id={id} className="py-20 lg:pt-32 lg:pb-20">
     <div className="container flex flex-col items-center mx-auto sm:px-10 lg:flex-row">
       <div className="lg:w-1/2">{primarySlot}</div>
       <div
