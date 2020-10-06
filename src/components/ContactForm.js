@@ -73,7 +73,7 @@ class ContactForm extends Component {
                 type="text"
                 name="name"
                 id="name"
-                className="w-full px-4 py-2 leading-tight border-2 appearance-none focus:outline-none focus:border-theme-two"
+                className="w-full px-4 py-2 leading-tight border-2 appearance-none bg-theme-white border-theme-two focus:outline-none focus:border-theme-three"
                 onChange={this.handleChange}
                 required
               />
@@ -88,7 +88,7 @@ class ContactForm extends Component {
                 type="text"
                 name="company-name"
                 id="company-name"
-                className="w-full px-4 py-2 leading-tight border-2 appearance-none focus:outline-none focus:border-theme-two"
+                className="w-full px-4 py-2 leading-tight border-2 appearance-none bg-theme-white border-theme-two focus:outline-none focus:border-theme-three"
                 onChange={this.handleChange}
               />
             </div>
@@ -101,7 +101,7 @@ class ContactForm extends Component {
               type="email"
               name="email"
               id="email"
-              className="w-full px-4 py-2 leading-tight border-2 appearance-none focus:outline-none focus:border-theme-two "
+              className="w-full px-4 py-2 leading-tight border-2 appearance-none bg-theme-white border-theme-two focus:outline-none focus:border-theme-three"
               onChange={this.handleChange}
               required
             />
@@ -114,7 +114,7 @@ class ContactForm extends Component {
               name="message"
               id="message"
               rows="10"
-              className="w-full px-4 py-2 leading-tight border-2 appearance-none focus:outline-none focus:border-theme-two"
+              className="w-full px-4 py-2 leading-tight border-2 appearance-none bg-theme-white focus:outline-none border-theme-two focus:border-theme-three"
               onChange={this.handleChange}
               required
             ></textarea>
@@ -124,14 +124,14 @@ class ContactForm extends Component {
               <input
                 type="submit"
                 value="Send Message"
-                className="w-full px-4 py-2 font-semibold tracking-wider rounded shadow cursor-pointer text-theme-white hover:shadow-lg focus:shadow-xl bg-theme-three hover:bg-theme-two focus:outline-none focus:bg-gray-900 focus:text-white"
+                className="w-full px-4 py-2 font-semibold tracking-wider rounded shadow cursor-pointer text-theme-white hover:shadow-lg focus:shadow-xl hover:bg-theme-black bg-theme-two focus:outline-none focus:bg-gray-900 focus:text-white"
               />
             </div>
             <div className="sm:ml-2 sm:w-1/2">
               <input
                 type="reset"
                 value="Reset"
-                className="w-full px-4 py-2 font-semibold tracking-wider rounded shadow cursor-pointer text-theme-white hover:shadow-lg focus:shadow-xl bg-theme-one hover:bg-theme-two focus:outline-none focus:bg-gray-900 focus:text-white"
+                className="w-full px-4 py-2 font-semibold tracking-wider rounded shadow cursor-pointer text-theme-white hover:shadow-lg focus:shadow-xl hover:bg-theme-black bg-theme-two focus:outline-none focus:bg-gray-900 focus:text-white"
               />
             </div>
           </div>
