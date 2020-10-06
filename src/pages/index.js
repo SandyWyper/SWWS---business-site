@@ -33,7 +33,7 @@ export default () => {
             "We are website specialists that can get your business preforming to it's full potential.  Shopify Specialists that can customise and repair every aspect of your Shopify site. Utilising the JAMstack methodology, we create cutting edge websites that are fast, secure and robust. Add new functionality to your existing website; booking system, live chat, maps/directions, enquiries, CMS integration, e-commerce or payment gateway.From fresh builds to theme customisation, our comprehensive knowledge of Shopify will ensure you get the right solution for you. We also offer SEO audits, theme clean-ups and app integration.",
           images: [
             {
-              url: 'https://tinderboxwebsolutions.com/static/TWS-title-image.jpg',
+              url: 'https://tinderboxwebsolutions.com/TWS-title-image.jpg',
               width: 800,
               height: 600,
               alt: 'Tinderbox Web Solutions Logo'
