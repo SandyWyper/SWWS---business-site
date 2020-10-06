@@ -20,8 +20,8 @@ module.exports = {
         name: `Tindebox Web Solutions`,
         short_name: `TWS`,
         start_url: `/`,
-        background_color: `#17161E`,
-        theme_color: `#526A92`,
+        background_color: `#f2f7f4`,
+        theme_color: `#aec0d8`,
         display: `minimal-ui`,
         icon: `./static/cube-icon-black.png` // This path is relative to the root of the site.
       }
