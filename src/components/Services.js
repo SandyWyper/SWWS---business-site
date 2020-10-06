@@ -30,8 +30,8 @@ const Services = () => {
               <div className="sm:w-1/2 lg:w-auto">
                 <p className="mb-2 text-3xl font-title">Improvements</p>
                 <p className="mb-2">
-                  Add new functionality to your existing website; booking system, maps/directions,
-                  enquireies, CMS integration.
+                  Add new functionality to your existing website; booking system, live chat,
+                  maps/directions, enquireies, CMS integration, e-commerce or payment gateway.
                 </p>
               </div>
             </div>

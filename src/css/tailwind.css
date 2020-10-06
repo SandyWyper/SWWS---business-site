@@ -177,16 +177,16 @@ hr:not([class]):before {
   border-radius: 0px;
   border: 3px solid theme('colors.theme.two');
 }
+/* --------------------------- Scroll Bar -------------- */
 
 ::selection {
-  background: theme('colors.theme.three');
-  color: theme('colors.theme.two');
+  background: theme('colors.theme.one');
+  color: theme('colors.theme.white');
   /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-  color: theme('colors.theme.two');
-  background: theme('colors.theme.three');
+  color: theme('colors.theme.white');
+  background: theme('colors.theme.one');
   /* Gecko Browsers */
 }
-/* --------------------------- Scroll Bar -------------- */
