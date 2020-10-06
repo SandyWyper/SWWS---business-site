@@ -15,13 +15,33 @@ import SvgMobileApp from '../svgComponents/SvgMobileApp';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import PhoneIcon from '../svgComponents/SvgCall.js';
 import MailIcon from '../svgComponents/SvgMail.js';
+import { GatsbySeo } from 'gatsby-plugin-next-seo';
 
 export default () => {
   const offset = () => (document.documentElement.clientWidth > 639 ? 87 : 127);
 
   return (
     <Layout>
-      <section id="top" className="py-12 lg:py-40 ">
+      <GatsbySeo
+        title="Tinderbox Web Solutions"
+        description={`We are website specialists that can get your business preforming to it's full potential.  Shopify Specialists that can customise and repair every aspect of your Shopify site. Utilising the JAMstack mothedology, we create cutting edge websites that are fast, secure and robust. Add new functionality to your existing website; booking system, live chat, maps/directions, enquireies, CMS integration, e-commerce or payment gateway.From fresh builds to theme customisation, our comprehensive knowledge of Shopify will unsure you get right solution for you. We also offer SEO audits, theme clean-ups and app integration.`}
+        openGraph={{
+          url: 'https://tinderboxwebsolutions.com',
+          title: 'Tinderbox Web Solutions',
+          description:
+            "We are website specialists that can get your business preforming to it's full potential.  Shopify Specialists that can customise and repair every aspect of your Shopify site. Utilising the JAMstack mothedology, we create cutting edge websites that are fast, secure and robust. Add new functionality to your existing website; booking system, live chat, maps/directions, enquireies, CMS integration, e-commerce or payment gateway.From fresh builds to theme customisation, our comprehensive knowledge of Shopify will unsure you get right solution for you. We also offer SEO audits, theme clean-ups and app integration.",
+          images: [
+            {
+              url: 'https://tinderboxwebsolutions.com/static/TWS-title-black.png',
+              width: 800,
+              height: 600,
+              alt: 'Tinderbox Web Solutions Logo'
+            }
+          ],
+          site_name: 'Tinderbox Web Solutions'
+        }}
+      />
+      <section id="top" className="py-12 lg:py-40">
         <div className="container px-8 md:flex md:items-center lg:items-end lg:pl-16">
           <div className="mb-20 text-center md:text-left lg:w-1/2 lg:mb-0">
             <h1 className="mb-4 text-3xl leading-tight xs:text-4xl sm:text-5xl text-theme-black font-title">
@@ -54,7 +74,7 @@ export default () => {
       <SplitSection
         id="websites"
         primarySlot={
-          <div className="px-4 mb-16 lg:mb-0 ">
+          <div className="px-4 mb-16 lg:mb-0">
             <h3 className="text-4xl leading-tight lg:pr-16 xl:pr-24 xl:text-5xl font-title">
               Websites that preform for your business
             </h3>

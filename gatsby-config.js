@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    'gatsby-plugin-next-seo',
     {
       resolve: `gatsby-theme-codebushi`,
       options: {
