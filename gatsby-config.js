@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#f2f7f4`,
         theme_color: `#aec0d8`,
         display: `minimal-ui`,
-        icon: `./static/cube-icon-black.png` // This path is relative to the root of the site.
+        icon: `./static/cube-icon-blue.png` // This path is relative to the root of the site.
       }
     }
   ]
