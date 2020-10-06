@@ -60,14 +60,14 @@ a:hover {
 
 /* --------------------------- 404 Robot -------------- */
 .st0 {
-  fill: #e8e8e8;
+  fill: theme('colors.theme.white');
 }
 .st1 {
-  fill: #161616;
+  fill: theme('colors.theme.black');
 }
 .st2 {
-  fill: #ffffff;
-  stroke: #161616;
+  fill: theme('colors.theme.white');
+  stroke: theme('colors.theme.black');
   stroke-width: 3;
   stroke-miterlimit: 10;
 }
@@ -80,8 +80,8 @@ a:hover {
   fill: #666666;
 }
 .st5 {
-  fill: #161616;
-  stroke: #161616;
+  fill: theme('colors.theme.black');
+  stroke: theme('colors.theme.black');
   stroke-width: 2;
   stroke-miterlimit: 10;
 }
@@ -105,15 +105,15 @@ a:hover {
   fill: #666666;
 }
 .st11 {
-  fill: #ffffff;
+  fill: theme('colors.theme.white');
 }
 .st12 {
   opacity: 0.41;
   fill: #666666;
 }
 .st13 {
-  fill: #ffffff;
-  stroke: #161616;
+  fill: theme('colors.theme.white');
+  stroke: theme('colors.theme.black');
   stroke-width: 2;
   stroke-miterlimit: 10;
 }
@@ -154,3 +154,39 @@ hr:not([class]):before {
   }
 }
 /* --------------------------- <hr/> -------------- */
+
+/* --------------------------- Scroll Bar -------------- */
+/* The emerging W3C standard
+   that is currently Firefox-only */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: theme('colors.theme.two') theme('colors.theme.three');
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: theme('colors.theme.three');
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: theme('colors.theme.two');
+  border-radius: 0px;
+  border: 3px solid theme('colors.theme.two');
+}
+
+::selection {
+  background: theme('colors.theme.three');
+  color: theme('colors.theme.two');
+  /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  color: theme('colors.theme.two');
+  background: theme('colors.theme.three');
+  /* Gecko Browsers */
+}
+/* --------------------------- Scroll Bar -------------- */

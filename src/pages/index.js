@@ -117,11 +117,11 @@ export default () => {
       </section>
       <hr />
       <StackIcons />
-      <div id="shopify" className="px-4 bg-theme-three text-theme-white">
+      <div id="shopify" className="px-4 bg-theme-three text-theme-black">
         <SplitSection
           reverseOrder
           primarySlot={
-            <div className="mb-12">
+            <div className="px-12 py-16 mb-12 rounded-lg shadow-lg bg-theme-white">
               <div className="flex items-center mb-6">
                 <img className="w-12 mb-2 mr-4 " src={ShopifyLogo} alt="Shopify Logo" />
                 <h3 className="text-4xl leading-tight font-title">Shopify Specialists</h3>
