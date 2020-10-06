@@ -6,7 +6,7 @@ const Header = () => {
   const offset = () => (document.documentElement.clientWidth > 639 ? 87 : 127);
 
   return (
-    <header className="top-0 z-50 shadow bg-theme-two xs:sticky">
+    <header className="sticky top-0 z-50 shadow bg-theme-two">
       <div className="container flex flex-col items-center justify-between px-8 font-semibold font-body sm:flex-row">
         <div className="flex items-center">
           <AnchorLink offset={offset} href="#top">
