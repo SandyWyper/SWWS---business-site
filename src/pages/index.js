@@ -24,12 +24,12 @@ export default () => {
     <Layout>
       <GatsbySeo
         title="Tinderbox Web Solutions"
-        description={`We are website specialists that can get your business preforming to it's full potential.  Shopify Specialists that can customise and repair every aspect of your Shopify site. Utilising the JAMstack mothedology, we create cutting edge websites that are fast, secure and robust. Add new functionality to your existing website; booking system, live chat, maps/directions, enquireies, CMS integration, e-commerce or payment gateway.From fresh builds to theme customisation, our comprehensive knowledge of Shopify will unsure you get right solution for you. We also offer SEO audits, theme clean-ups and app integration.`}
+        description={`We are website specialists that can get your business preforming to it's full potential.  Shopify Specialists that can customise and repair every aspect of your Shopify site. Utilising the JAMstack methodology, we create cutting edge websites that are fast, secure and robust. Add new functionality to your existing website; booking system, live chat, maps/directions, enquiries, CMS integration, e-commerce or payment gateway.From fresh builds to theme customisation, our comprehensive knowledge of Shopify will ensure you get the right solution for you. We also offer SEO audits, theme clean-ups and app integration.`}
         openGraph={{
           url: 'https://tinderboxwebsolutions.com',
           title: 'Tinderbox Web Solutions',
           description:
-            "We are website specialists that can get your business preforming to it's full potential.  Shopify Specialists that can customise and repair every aspect of your Shopify site. Utilising the JAMstack mothedology, we create cutting edge websites that are fast, secure and robust. Add new functionality to your existing website; booking system, live chat, maps/directions, enquireies, CMS integration, e-commerce or payment gateway.From fresh builds to theme customisation, our comprehensive knowledge of Shopify will unsure you get right solution for you. We also offer SEO audits, theme clean-ups and app integration.",
+            "We are website specialists that can get your business preforming to it's full potential.  Shopify Specialists that can customise and repair every aspect of your Shopify site. Utilising the JAMstack methodology, we create cutting edge websites that are fast, secure and robust. Add new functionality to your existing website; booking system, live chat, maps/directions, enquiries, CMS integration, e-commerce or payment gateway.From fresh builds to theme customisation, our comprehensive knowledge of Shopify will ensure you get the right solution for you. We also offer SEO audits, theme clean-ups and app integration.",
           images: [
             {
               url: 'https://tinderboxwebsolutions.com/static/TWS-title-black.png',
@@ -76,13 +76,13 @@ export default () => {
         primarySlot={
           <div className="px-4 mb-16 lg:mb-0">
             <h3 className="text-4xl leading-tight lg:pr-16 xl:pr-24 xl:text-5xl font-title">
-              Websites that preform for your business
+              Websites that perform for your business
             </h3>
             <p className="mt-8 text-lg font-light leading-relaxed lg:pr-8 xl:pr-16">
               We will sit down with you to outline your needs. Using the best technology available,
               we enable your business to stand on the shoulders of giants. Our websites are built
               using a combination of static site generators, headless CMS and CDN service providers.
-              This is taking from the JAMstack mothodology, and the result is astoundinly good
+              This is based on the JAMstack methodology, and the result is astoundingly good
               websites.
             </p>
           </div>

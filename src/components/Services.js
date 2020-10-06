@@ -17,7 +17,7 @@ const Services = () => {
               <div className="sm:w-1/2 lg:w-auto">
                 <p className="mb-2 text-3xl font-title">Builds</p>
                 <p className="mb-2">
-                  Utilising the JAMstack mothedology, we create cutting edge websites that are fast,
+                  Utilising the JAMstack methodology, we create cutting edge websites that are fast,
                   secure and robust. We want the best user experience possible for every site we
                   build.
                 </p>
@@ -31,7 +31,7 @@ const Services = () => {
                 <p className="mb-2 text-3xl font-title">Improvements</p>
                 <p className="mb-2">
                   Add new functionality to your existing website; booking system, live chat,
-                  maps/directions, enquireies, CMS integration, e-commerce or payment gateway.
+                  maps/directions, enquiries, CMS integration, e-commerce or payment gateway.
                 </p>
               </div>
             </div>
@@ -46,7 +46,7 @@ const Services = () => {
                 </div>
                 <p className="mb-2">
                   From fresh builds to theme customisation, our comprehensive knowledge of Shopify
-                  will unsure you get right solution for you. We also offer SEO audits, theme
+                  will ensure you get the right solution for you. We also offer SEO audits, theme
                   clean-ups and app integration.
                 </p>
               </div>
