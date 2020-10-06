@@ -160,7 +160,7 @@ hr:not([class]):before {
    that is currently Firefox-only */
 * {
   scrollbar-width: thin;
-  scrollbar-color: theme('colors.theme.two') theme('colors.theme.three');
+  scrollbar-color: theme('colors.theme.two') theme('colors.theme.one');
 }
 
 /* Works on Chrome/Edge/Safari */
@@ -169,7 +169,7 @@ hr:not([class]):before {
 }
 
 *::-webkit-scrollbar-track {
-  background: theme('colors.theme.three');
+  background: theme('colors.theme.one');
 }
 
 *::-webkit-scrollbar-thumb {

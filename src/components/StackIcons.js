@@ -26,7 +26,7 @@ const StackIcons = () => {
       <div className="py-12 mx-auto text-theme-black lg:flex lg:flex-row xs:max-w-lg sm:max-w-2xl lg:max-w-5xl">
         <div className="mb-12 lg:w-1/2">
           <h4 className="px-4 text-2xl text-center lg:text-left sm:text-3xl md:text-4xl font-title lg:pl-12">
-            By using the best platforms and services, your business will stand on the shoulders of
+            By using the best platforms and services, your business can stand on the shoulders of
             giants.
           </h4>
         </div>

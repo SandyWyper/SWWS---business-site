@@ -13,7 +13,7 @@ function SvgOnlineShopping({ className }) {
     >
       <path fill="#e6e6e6" d="M0.275 0.365H645V413.27500000000003H0.275z"></path>
       <path fill="#fff" d="M18.711 52.155H626.564V388.84799999999996H18.711z"></path>
-      <path className="fill-current text-theme-one" d="M0 0H644.725V27.39H0z"></path>
+      <path className="fill-current text-theme-three" d="M0 0H644.725V27.39H0z"></path>
       <circle cx="20.354" cy="14.003" r="5.077" fill="#fff"></circle>
       <circle cx="39.624" cy="14.003" r="5.077" fill="#fff"></circle>
       <circle cx="58.893" cy="14.003" r="5.077" fill="#fff"></circle>
@@ -68,12 +68,12 @@ function SvgOnlineShopping({ className }) {
         transform="rotate(3.734 2572.283 -1835.505)"
       ></path>
       <path
-        className="fill-current text-theme-one"
+        className="fill-current text-theme-three"
         d="M642 702.787H668V710.787H642z"
         transform="rotate(3.734 2572.283 -1835.505)"
       ></path>
       <path
-        className="fill-current text-theme-one"
+        className="fill-current text-theme-three"
         d="M722 612.618L641.578 629.079 639.745 628.892 569.071 621.759 569.071 532.196 655.587 517.569 718.346 524.888 718.369 525.285 718.369 525.472 722 612.618z"
       ></path>
       <path
@@ -92,7 +92,7 @@ function SvgOnlineShopping({ className }) {
         transform="rotate(3.734 2681.283 -1835.505)"
       ></path>
       <path
-        className="fill-current text-theme-one"
+        className="fill-current text-theme-three"
         d="M751 702.787H777V710.787H751z"
         transform="rotate(3.734 2681.283 -1835.505)"
       ></path>
@@ -119,7 +119,7 @@ function SvgOnlineShopping({ className }) {
       ></path>
       <circle cx="799.195" cy="152.276" r="28.966" fill="#ffb8b8"></circle>
       <path
-        className="fill-current text-theme-two"
+        className="fill-current text-theme-one"
         d="M988.402 322.49s10.103 19.988-20.35 20.555c-9.361.174-20.495-6.648-25.09-14.806-2.708-4.806-3.393 1.832-7.77 1.345-8.292-.921-17.15 2.519-25.076 6.734a5.001 5.001 0 00-2.443 5.865c6.011 19.944 23.177 115.881 25.827 121.104 6.767 13.34 80-9 80-9 1.004-36.293-12.17-87.07 11-124a44.135 44.135 0 00-36.098-7.798z"
         transform="translate(-161.5 -130.263)"
       ></path>
@@ -153,7 +153,7 @@ function SvgOnlineShopping({ className }) {
         transform="rotate(3.734 2836.283 -1964.505)"
       ></path>
       <path
-        className="fill-current text-theme-one"
+        className="fill-current text-theme-three"
         d="M906 573.787H932V581.787H906z"
         transform="rotate(3.734 2836.283 -1964.505)"
       ></path>
@@ -163,7 +163,7 @@ function SvgOnlineShopping({ className }) {
         transform="translate(-161.5 -130.263)"
       ></path>
       <path
-        className="fill-current text-theme-two"
+        className="fill-current text-theme-one"
         d="M914.5 335.287c-1.531-1.725-20.867 8.136-18 21l1.349 89.135s-7.095 73.312 10.642 73.312 15.644 2.466 18.009-3.447 3-56 3-56z"
         transform="translate(-161.5 -130.263)"
       ></path>
@@ -173,7 +173,7 @@ function SvgOnlineShopping({ className }) {
         transform="translate(-161.5 -130.263)"
       ></path>
       <path
-        className="fill-current text-theme-two"
+        className="fill-current text-theme-one"
         d="M1009.5 452.287s-7.365 49.088-5 55 .272 3.447 18.009 3.447 10.642-73.312 10.642-73.312l1.349-89.135c2.867-12.864-16.469-22.725-18-21l-17 58z"
         transform="translate(-161.5 -130.263)"
       ></path>

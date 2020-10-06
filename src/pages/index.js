@@ -40,7 +40,7 @@ export default () => {
             <AnchorLink
               offset={offset}
               href="#contact"
-              className="px-8 py-4 my-8 text-xl font-semibold rounded shadow hover:text-white hover:shadow-xl bg-theme-three hover:bg-theme-two text-theme-white"
+              className="px-8 py-4 my-8 text-xl font-semibold rounded shadow hover:text-white hover:shadow-xl bg-theme-three hover:bg-theme-one text-theme-white"
             >
               Get in touch
             </AnchorLink>
@@ -117,20 +117,22 @@ export default () => {
       </section>
       <hr />
       <StackIcons />
-      <div id="shopify" className="px-4 bg-theme-three text-theme-black">
+      <div id="shopify" className="px-4 bg-theme-two text-theme-black">
         <SplitSection
           reverseOrder
           primarySlot={
-            <div className="px-12 py-16 mb-12 rounded-lg shadow-lg bg-theme-white">
+            <div className="px-4 py-16 mb-12 rounded-lg shadow-lg md:px-12 bg-theme-white">
               <div className="flex items-center mb-6">
                 <img className="w-12 mb-2 mr-4 " src={ShopifyLogo} alt="Shopify Logo" />
-                <h3 className="text-4xl leading-tight font-title">Shopify Specialists</h3>
+                <h3 className="text-3xl leading-tight md:text-4xl font-title">
+                  Shopify Specialists
+                </h3>
               </div>
-              <p className="text-lg font-light leading-relaxed md:text-xl">
+              <p className="text-lg font-light leading-relaxed">
                 Your Shopify store may not be performing to it's full potential. We can help
-                customise your store so you have full control over form + function. Whether you need
-                a customised order process, multinational store setup or just a styling change, we
-                can deliver the results you need.
+                customise your store so you have full control over form&nbsp;&&nbsp;function.
+                Whether you need a customised order process, multinational store setup or just a
+                styling change, we can deliver the results you need.
               </p>
             </div>
           }
