@@ -175,7 +175,10 @@ hr:not([class]):before {
 *::-webkit-scrollbar-thumb {
   background-color: theme('colors.theme.two');
   border-radius: 0px;
-  border: 3px solid theme('colors.theme.two');
+  border-top: 1px solid #c7ced6;
+  border-left: 1px solid #c7ced6;
+  border-right: 1px solid #7c8187;
+  border-bottom: 1px solid #7c8187;
 }
 /* --------------------------- Scroll Bar -------------- */
 
