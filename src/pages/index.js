@@ -18,7 +18,7 @@ import MailIcon from '../svgComponents/SvgMail.js';
 import { GatsbySeo } from 'gatsby-plugin-next-seo';
 
 export default () => {
-  const offset = () => (document.documentElement.clientWidth > 639 ? 87 : 127);
+  const offset = 87;
 
   return (
     <Layout>
