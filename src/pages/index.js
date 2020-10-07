@@ -80,11 +80,11 @@ export default () => {
               Websites that perform for your business
             </h3>
             <p className="mt-8 text-lg font-light leading-relaxed lg:pr-8 xl:pr-16">
-              We will sit down with you to outline your needs. Using the best technology available,
-              we enable your business to stand on the shoulders of giants. Our websites are built
-              using a combination of static site generators, headless CMS and CDN service providers.
-              This is based on the JAMstack methodology, and the result is astoundingly good
-              websites.
+              We will disscuss your needs and outline a solution. Using the best technology
+              available, we enable your business to stand on the shoulders of giants. Our websites
+              are built using a combination of static site generators, headless CMS and CDN service
+              providers. This is based on the JAMstack methodology, and the result is astoundingly
+              good websites.
             </p>
           </div>
         }
