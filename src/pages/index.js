@@ -169,7 +169,7 @@ export default () => {
           </p>
           <div className="flex items-center mb-6">
             <PhoneIcon className="w-4 h-4 mr-2 fill-current xs:mr-4 xs:w-6 xs:h-6 text-theme-one" />
-            <p className="font-sans text-lg md:text-xl">077853 835 718</p>
+            <p className="font-sans text-lg md:text-xl">07853 835 718</p>
           </div>
           <div className="flex items-center mb-6">
             <MailIcon className="w-4 h-4 mr-2 fill-current xs:mr-4 xs:w-6 xs:h-6 text-theme-one" />

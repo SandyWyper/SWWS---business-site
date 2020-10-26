@@ -24,9 +24,9 @@ const Footer = () => (
       <div className="flex justify-around w-full px-3 md:block md:1/2 lg:w-2/3">
         <h2 className="hidden mb-6 text-lg font-semibold md:block">Contact</h2>
         <div>
-          <a className="flex items-center mb-4 text-theme-white" href="tel:077853835718">
+          <a className="flex items-center mb-4 text-theme-white" href="tel:07853835718">
             <PhoneIcon className="w-6 h-6 mr-4 fill-current" />
-            <p className="hidden font-sans text-lg md:inline-block">077853 835 718</p>
+            <p className="hidden font-sans text-lg md:inline-block">07853 835 718</p>
           </a>
         </div>
         <div>
