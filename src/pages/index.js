@@ -42,7 +42,7 @@ export default () => {
           site_name: 'Tinderbox Web Solutions'
         }}
       />
-      <section id="top" className="py-12 lg:py-40">
+      <section className="py-12 lg:py-40">
         <div className="container px-8 md:flex md:items-center lg:items-end lg:pl-16">
           <div className="mb-20 text-center md:text-left lg:w-1/2 lg:mb-0">
             <h1 className="mb-4 text-3xl leading-tight xs:text-4xl sm:text-5xl text-theme-black font-title">
