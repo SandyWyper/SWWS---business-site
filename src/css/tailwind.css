@@ -165,11 +165,11 @@ hr:not([class]):before {
 
 /* Works on Chrome/Edge/Safari */
 *::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
 }
 
 *::-webkit-scrollbar-track {
-  background: theme('colors.theme.one');
+  background: theme('colors.theme.black');
 }
 
 *::-webkit-scrollbar-thumb {
@@ -192,4 +192,17 @@ hr:not([class]):before {
   color: theme('colors.theme.white');
   background: theme('colors.theme.one');
   /* Gecko Browsers */
+}
+
+/* --------------------------- Nav hide -------------------*/
+#header {
+  transition: transform 0.3s ease;
+}
+.hide {
+  transform: translateY(-130px);
+}
+@screen md {
+  .hide {
+    transform: translateY(-87px);
+  }
 }

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import TwsTitle from '../../svgComponents/twsTitle';
-import { useSpring, animated } from 'react-spring';
 import useScrollPosition from '../../lib/useScrollPosition';
 
 const Header = () => {
@@ -12,8 +11,17 @@ const Header = () => {
 
   useScrollPosition(
     ({ prevPos, currPos }) => {
+      const headerEl = document.querySelector('#header');
       const show = currPos.y > -60 || currPos.y > prevPos.y;
-      if (show !== isShown) setIsShown(show);
+
+      if (show !== isShown) {
+        setIsShown(show);
+        if (isShown) {
+          headerEl.classList.add('hide');
+        } else {
+          headerEl.classList.remove('hide');
+        }
+      }
     },
     [isShown],
     undefined,
@@ -21,17 +29,8 @@ const Header = () => {
     100
   );
 
-  const showNavSpring = useSpring({
-    from: { marginTop: isShown ? '-130px' : '0rem' },
-    to: { marginTop: isShown ? '0rem' : '-130px' },
-    config: { mass: 1, tension: 120, friction: 24, clamp: true }
-  });
-
   return (
-    <animated.header
-      style={showNavSpring}
-      className="fixed inset-x-0 top-0 z-50 shadow bg-theme-two"
-    >
+    <header id="header" className="fixed inset-x-0 top-0 z-50 shadow bg-theme-two">
       <div className="container flex flex-col items-center justify-between px-8 font-semibold font-body sm:flex-row">
         <div className="flex items-center">
           <AnchorLink offset={offset} href="#top">
@@ -62,7 +61,7 @@ const Header = () => {
           </AnchorLink>
         </div>
       </div>
-    </animated.header>
+    </header>
   );
 };
 

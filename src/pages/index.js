@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
-import SvgHeroImage from '../svgComponents/SvgHeroImage';
+
 import StackIcons from '../components/StackIcons';
 import Services from '../components/Services';
 import ShopifyLogo from '../icons/Shopify-icon.svg';
@@ -12,14 +12,12 @@ import SvgOnlineShopping from '../svgComponents/SvgOnlineShopping';
 import SvgSecurity from '../svgComponents/SvgSecurity';
 import ContactForm from '../components/ContactForm';
 import SvgMobileApp from '../svgComponents/SvgMobileApp';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import HomeTopFold from '../components/homeTopFold';
 import PhoneIcon from '../svgComponents/SvgCall.js';
 import MailIcon from '../svgComponents/SvgMail.js';
 import { GatsbySeo } from 'gatsby-plugin-next-seo';
 
 export default () => {
-  const offset = 87;
-
   return (
     <Layout>
       <GatsbySeo
@@ -42,35 +40,7 @@ export default () => {
           site_name: 'Tinderbox Web Solutions'
         }}
       />
-      <section className="py-12 lg:py-40">
-        <div className="container px-8 md:flex md:items-center lg:items-end lg:pl-16">
-          <div className="mb-20 text-center md:text-left lg:w-1/2 lg:mb-0">
-            <h1 className="mb-4 text-3xl leading-tight xs:text-4xl sm:text-5xl text-theme-black font-title">
-              Your business,
-              <br />
-              our solutions
-            </h1>
-
-            <div className="max-w-sm mx-auto mb-6 md:hidden">
-              <SvgHeroImage />
-            </div>
-            <p className="mb-16 text-xl md:text-2xl xl:pr-12">
-              We use the latest technology to help you stay ahead of the competition and succeed
-              online
-            </p>
-            <AnchorLink
-              offset={offset}
-              href="#contact"
-              className="px-8 py-4 my-8 text-xl font-semibold rounded shadow hover:text-white hover:shadow-xl bg-theme-three hover:bg-theme-one text-theme-white"
-            >
-              Get in touch
-            </AnchorLink>
-          </div>
-          <div className="hidden md:w-1/3 lg:w-1/2 lg:block">
-            <SvgHeroImage />
-          </div>
-        </div>
-      </section>
+      <HomeTopFold />
       <Services />
       <SplitSection
         id="websites"
@@ -182,57 +152,6 @@ export default () => {
           <ContactForm />
         </div>
       </section>
-      {/* <SplitSection
-      primarySlot={
-        <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
-          </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    /> */}
-      {/* <section id="stats" className="py-20 lg:pt-32">
-      <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">Our customers get results</LabelText>
-        <div className="flex flex-col mt-8 sm:flex-row lg:px-24">
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-        </div>
-      </div>
-    </section> */}
-      {/* <section id="testimonials" className="py-20 lg:py-40">
-      <div className="container mx-auto">
-        <LabelText className="mb-8 text-center text-gray-600">What customers are saying</LabelText>
-        <div className="flex flex-col md:flex-row md:-mx-3">
-          {customerData.map(customer => (
-            <div key={customer.customerName} className="flex-1 px-3">
-              <CustomerCard customer={customer} />
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-    <section className="container py-24 mx-auto my-20 text-center bg-gray-200 rounded-lg">
-      <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
-      <p className="mt-8 text-xl font-light">
-        Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
-      </p>
-      <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
-      </p>
-    </section> */}
     </Layout>
   );
 };
